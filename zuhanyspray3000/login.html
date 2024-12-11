@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>ZuhanySpray3000 Webshop</title>
+    </head>
+    
+    <body>
+        <div id="container">
+            <div id="left">
+                <img style="width: 350px; display: block; margin: auto; margin-top: 50%;" src="reklam.png">
+            </div>
+    
+            <div id="center">
+                <div id="navbar">
+                    <ul>
+                        <li class="active"><a href="shop.html">Bolt</a></li>
+                        <li><a href="about.html">Rólunk</a></li>
+                        <li style="float: right;"><a href="login.html"><img src="acc.png" style="height: 23px;"></a></li>
+                    </ul>
+                </div>
+    
+                <div id="logo">
+                    <img src="logo.png"> 
+                </div>
+
+                <br>
+
+                <div id="logindiv">
+                    <form action="/action_page.php" method="post">                 
+                        <div class="logcontainer">
+                            <label for="user" style="margin-left: 25%;"><b>Felhasználónév</b></label>
+                            <input type="text" placeholder="Felhasználónév" name="user" required>
+                  
+                            <label for="pass" style="margin-left: 25%;"><b>Jelszó</b></label>
+                            <input type="password" placeholder="Jelszó" name="pass" required>
+                          
+                            <a href="shop.html"><div id="button">
+                                <h3>Bejelentkezés</h3>
+                                </div>
+                            </a>
+
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember" style="margin-left: 25%;">Emlékezz rám
+                            </label>
+                        </div>
+
+                        <div id="forgot">
+                            <span class="pass"><a href="#">Elfeljtetted a jelszavad?</a></span>
+                        </div>
+                    </form>
+                </div>
+        </div>
+
+        <div id="right">
+            <img style="width: 350px; display: block; margin: auto; margin-top: 50%;" src="reklam.png">
+        </div>
+    </body>
+</html>
